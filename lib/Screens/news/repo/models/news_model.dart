@@ -23,7 +23,6 @@ class NewsResponse {
             }
           } catch (e) {
             print('Error parsing article: $e');
-            // Skip invalid articles
           }
         }
       }
